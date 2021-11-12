@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_feedbacks_feedbacks",
+  "info": {
+    "name": "feedbacks",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "rating": {
+      "type": "decimal"
+    },
+    "feedback": {
+      "type": "richtext"
+    }
+  }
+}

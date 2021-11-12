@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_company_offers",
+  "info": {
+    "name": "offer",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "salary": {
+      "type": "decimal"
+    },
+    "company": {
+      "type": "component",
+      "repeatable": false,
+      "component": "company.company"
+    }
+  }
+}

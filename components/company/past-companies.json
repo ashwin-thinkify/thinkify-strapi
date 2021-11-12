@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_company_past_companies",
+  "info": {
+    "name": "past_companies",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "work_experience": {
+      "type": "datetime"
+    }
+  }
+}

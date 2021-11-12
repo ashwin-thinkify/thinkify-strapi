@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "candidates",
+  "info": {
+    "name": "candidates",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "current_salary": {
+      "type": "decimal"
+    },
+    "expected_salary": {
+      "type": "decimal"
+    },
+    "notice_period": {
+      "type": "string"
+    },
+    "college": {
+      "type": "string"
+    },
+    "interview_scores": {
+      "type": "decimal"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skill.skill"
+    },
+    "offers_from_companies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "company.offer"
+    },
+    "past_companies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "company.past-companies"
+    },
+    "interview_feedbacks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feedbacks.feedbacks"
+    }
+  }
+}
