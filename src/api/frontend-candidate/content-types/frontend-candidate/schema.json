@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frontend_candidates",
+  "info": {
+    "singularName": "frontend-candidate",
+    "pluralName": "frontend-candidates",
+    "displayName": "Frontend Candidate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "Photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "GitHub": {
+      "type": "string"
+    }
+  }
+}
